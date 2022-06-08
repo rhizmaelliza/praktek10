@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.box-formulir {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.box {
+    background-color: lightgray;
+    color: #272343;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px 0 25px;
+    position: center;
+    align-items: center;
+    align-content: center;
+}
+
+.table-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-form tr td:nth-child(1) {
+    width: 35%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.input-control {
+    padding: 5px 10px;
+    font-size: auto;
+    margin: 5px 0;
+}
+
+.btn-daftar {
+    padding: 12px 17px;
+    background-color: #dcb447;
+    color: blue;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-daftar:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.btn-daftar {
+    display: inline-block;
+    padding: 10px 17px;
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.btn-login {
+    padding: 12px 17px;
+    background-color: #dcb447;
+    color: blue;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.btn-login {
+    display: inline-block;
+    padding: 10px 17px;
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+}
